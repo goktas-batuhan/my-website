@@ -69,7 +69,7 @@
 .about-details-image {
   width: 375px;
   height: 350px;
-  background-image: url("profile.jpeg");
+  background-image: url("/profile.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 18px;
