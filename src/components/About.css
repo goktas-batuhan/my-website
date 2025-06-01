@@ -1,0 +1,144 @@
+.container {
+  background: linear-gradient(to right, #4631d4 70%, #caf280 30%);
+  height: 671px;
+  width: "100%";
+}
+
+.dark-mode-container {
+  background: linear-gradient(to right, #1b1364 70%, #4e5d2b 30%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.translation-button {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+}
+
+.theme-toggle {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  padding-left: 6rem;
+  margin-top: 3rem;
+}
+
+.about h4 {
+  padding-left: 12rem;
+}
+
+.about-details {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.about-details-text {
+  width: 35%;
+  padding-left: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+}
+.about-details-text h3,
+.translation-text,
+.about h4 {
+  color: #cbf281;
+}
+
+.translation-text {
+  cursor: pointer;
+}
+
+.about-details-image-container {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-details-image {
+  width: 375px;
+  height: 350px;
+  background-image: url("profile.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.about-details-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.about-details-links button {
+  background-color: white;
+  color: #4631d4;
+}
+
+.dark-about-details-links button {
+  background-color: black;
+  color: #eee;
+}
+
+.dark-about-details-links button:hover {
+  background-color: #262626 !important;
+}
+
+.about-details-links button:hover {
+  background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 750px;
+    background: #4631d4;
+    padding: 0.5rem;
+  }
+  .translation-button {
+    width: 50%;
+  }
+  .theme-toggle {
+    width: 50%;
+  }
+  .about {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-details {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about h4 {
+    padding-left: 0;
+  }
+
+  .about-details-text {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .about-details-image-container {
+    width: 100%;
+  }
+
+  .about-details-image {
+    width: 275px;
+    height: 250px;
+  }
+
+  .about-details-links {
+    flex-direction: column;
+  }
+}

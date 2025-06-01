@@ -1,0 +1,25 @@
+.projects-container {
+  min-height: 500px;
+  padding: 12rem;
+  background-color: #caf280;
+}
+
+.dark-projects-container {
+  background-color: #4e5d2b;
+}
+
+.projects-container h3 {
+  color: #4631d4;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.dark-projects-container h3 {
+  color: #eee;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 1rem;
+  }
+}

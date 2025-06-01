@@ -1,0 +1,29 @@
+.footer {
+  background-color: white;
+  padding-bottom: 12px;
+}
+
+.dark-footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-container {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-container h4,
+.footer-container a {
+  color: #4631d4;
+  text-align: center;
+}
+
+.footer-contacts {
+  display: flex;
+  color: #4631d4;
+  gap: 8px;
+}

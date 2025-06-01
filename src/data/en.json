@@ -1,0 +1,85 @@
+{
+  "languageToggle": "Türkçeye Geç",
+  "intro": {
+    "text": "I am a Frontend Developer...",
+    "description": "Passionate about building solid and scalable front-end products with excellent user experiences"
+  },
+  "skills": {
+    "title": "Skills",
+    "skills": [
+      {
+        "title": "FIGMA",
+        "icon": "figma.jpg"
+      },
+      {
+        "title": "JAVASCRIPT",
+        "icon": "js.jpg"
+      },
+      {
+        "title": "NODEJS",
+        "icon": "nodejs.jpg"
+      },
+      {
+        "title": "REACT",
+        "icon": "react.png"
+      },
+      {
+        "title": "REDUX",
+        "icon": "redux.png"
+      },
+      {
+        "title": "VSCODE",
+        "icon": "vscode.png"
+      }
+    ]
+  },
+  "profile": {
+    "title": "Profile",
+    "basicInformation": "Basic Information",
+    "informations": [
+      {
+        "title": "Date of Birth",
+        "value": "1999"
+      },
+      {
+        "title": "City of Residence",
+        "value": "Izmir"
+      },
+      {
+        "title": "Education",
+        "value": "Caltech"
+      },
+      {
+        "title": "Preferred Role",
+        "value": "Frontend, UI"
+      }
+    ],
+    "about": {
+      "title": "About",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugit saepe magni eius, eaque animi nobis distinctio dolor debitis eos minus numquam repudiandae sed velit officia voluptas, nesciunt assumenda explicabo!"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Teknolojik Yemekler",
+        "img": "project-1.jpeg",
+        "description": "Teknolojik Yemekler is a single-page React application that offers a user interface for ordering pizza. With a focus on intuitive experience and user-friendly design, this project was developed to demonstrate independent working skills and technical presentation ability.",
+        "technologies": ["react", "axios", "vercel"]
+      },
+      {
+        "title": "Login Page",
+        "img": "project-2.jpeg",
+        "description": "This is a simple login page developed using React. It provides a clean and user-friendly interface where users can log in with their email and password. With basic validation and error handling, this page serves as a foundational example for learning form handling and component structure in React.",
+        "technologies": ["react", "react-hook-form", "vercel"]
+      }
+    ]
+  },
+  "viewSite": "View Site",
+  "footer": {
+    "title": "Send me a message!",
+    "description": "Do you have a question, suggestion, or just want to say hi? Let's talk.",
+    "email": "batuhangoktas@gmail.com"
+  }
+}
