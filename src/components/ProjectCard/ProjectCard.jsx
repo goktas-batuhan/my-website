@@ -4,7 +4,6 @@ import { useDarkMode } from "../../contexts/DarkModeContext";
 
 const ProjectCard = ({ project, viewSite }) => {
   const { darkMode } = useDarkMode();
-  console.log(project, viewSite);
   return (
     <Box className={`card ${darkMode ? "dark-card" : ""}`}>
       <Box className="card-img-container">
