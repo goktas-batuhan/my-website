@@ -66,13 +66,17 @@
         "title": "Teknolojik Yemekler",
         "img": "project-1.jpeg",
         "description": "Teknolojik Yemekler projesi, kullanıcıların pizza siparişi verebildiği bir arayüz sunan React tabanlı tek sayfalık bir uygulamadır. Kullanıcı dostu tasarımı ve sezgisel deneyimiyle öne çıkan bu proje, bireysel çalışma yetkinliğini ve teknik sunum becerilerini ölçmeye yönelik olarak hazırlanmıştır.",
-        "technologies": ["react", "axios", "vercel"]
+        "technologies": ["react", "axios", "vercel"],
+        "link": "https://fsweb-s8-challenge-pizza-self.vercel.app/",
+        "github": "https://github.com/goktas-batuhan/fsweb-s8-challenge-pizza"
       },
       {
         "title": "Giriş Sayfası",
         "img": "project-2.jpeg",
         "description": "Bu proje, React kullanılarak geliştirilmiş basit bir giriş sayfasıdır. Kullanıcıların e-posta ve şifre bilgileriyle sisteme giriş yapmasını sağlayan sade ve kullanıcı dostu bir arayüz sunar. Form doğrulama ve temel hata kontrolleri gibi işlevler içeren bu sayfa, React ile form yönetimi ve bileşen yapısının anlaşılmasını amaçlayan temel bir uygulamadır.",
-        "technologies": ["react", "react-hook-form", "vercel"]
+        "technologies": ["react", "react-hook-form", "vercel"],
+        "link": "https://login-page-eta-taupe.vercel.app/",
+        "github": "https://github.com/goktas-batuhan/login-page"
       }
     ]
   },

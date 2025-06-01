@@ -66,13 +66,17 @@
         "title": "Teknolojik Yemekler",
         "img": "project-1.jpeg",
         "description": "Teknolojik Yemekler is a single-page React application that offers a user interface for ordering pizza. With a focus on intuitive experience and user-friendly design, this project was developed to demonstrate independent working skills and technical presentation ability.",
-        "technologies": ["react", "axios", "vercel"]
+        "technologies": ["react", "axios", "vercel"],
+        "link": "https://fsweb-s8-challenge-pizza-self.vercel.app/",
+        "github": "https://github.com/goktas-batuhan/fsweb-s8-challenge-pizza"
       },
       {
         "title": "Login Page",
         "img": "project-2.jpeg",
         "description": "This is a simple login page developed using React. It provides a clean and user-friendly interface where users can log in with their email and password. With basic validation and error handling, this page serves as a foundational example for learning form handling and component structure in React.",
-        "technologies": ["react", "react-hook-form", "vercel"]
+        "technologies": ["react", "react-hook-form", "vercel"],
+        "link": "https://login-page-eta-taupe.vercel.app/",
+        "github": "https://github.com/goktas-batuhan/login-page"
       }
     ]
   },

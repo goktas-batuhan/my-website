@@ -20,10 +20,10 @@ const ProjectCard = ({ project, viewSite }) => {
             ))}
           </Box>
           <Box className="project-actions">
-            <Link color="inherit" href="#">
+            <Link color="inherit" href={project.link}>
               {viewSite}
             </Link>
-            <Link color="inherit" href="#">
+            <Link color="inherit" href={project.github}>
               Github
             </Link>
           </Box>
