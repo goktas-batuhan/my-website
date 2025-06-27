@@ -67,8 +67,8 @@
         "img": "project-1.jpeg",
         "description": "Teknolojik Yemekler is a single-page React application that offers a user interface for ordering pizza. With a focus on intuitive experience and user-friendly design, this project was developed to demonstrate independent working skills and technical presentation ability.",
         "technologies": ["react", "axios", "vercel"],
-        "link": "https://fsweb-s8-challenge-pizza-self.vercel.app/",
-        "github": "https://github.com/goktas-batuhan/fsweb-s8-challenge-pizza"
+        "link": "https://teknolojik-yemekler-ba2.vercel.app/",
+        "github": "https://github.com/goktas-batuhan/teknolojik-yemekler"
       },
       {
         "title": "Login Page",
